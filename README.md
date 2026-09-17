@@ -105,6 +105,7 @@ Skills资源
 ### Agent可观测性
 
 - [从 AI Agent 到模型推理：端到端 AI 可观测实践](https://zhuanlan.zhihu.com/p/1916169255818358957)
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)：从「能观测」走到「能复现」——在模型 provider 边界把一次 agent 运行的真实字节流（prompt、工具调用、响应）录成本地 trace，事后 `orca replay last` 可断网、不花 token 地按字节重放同一次运行，`orca compare` 则能从任意 checkpoint 换模型重跑做对照；Apache-2.0 的 Node CLI，不需要改 agent 代码。
 
 ### Vibe-Coding
 
